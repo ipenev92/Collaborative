@@ -271,14 +271,14 @@ p a:hover {
   color: #333333;
 }
 
-/** Adbox **/
-#adbox {
+/** box **/
+#box {
   background: url(../images/bg-adbox.png) no-repeat center bottom;
   border-bottom: 1px solid #fff;
   padding-top: 15px;
 }
 
-#adbox > div {
+#box > div {
   background-color: #e9e9e9;
   width: 958px;
   border: 1px solid #fff;
@@ -286,11 +286,11 @@ p a:hover {
   position: relative;
 }
 
-#adbox > div img {
+#box > div img {
   float: right;
 }
 
-#adbox .detail {
+#box .detail {
   font-family: Times, "Times New Roman", serif;
   height: 185px;
   line-height: 48px;
@@ -301,7 +301,7 @@ p a:hover {
   top: 90px;
 }
 
-#adbox .detail h1 {
+#box .detail h1 {
   color: #4e5944;
   font-size: 30px;
   font-weight: normal;
@@ -310,7 +310,7 @@ p a:hover {
   text-transform: none;
 }
 
-#adbox .detail p {
+#box .detail p {
   color: #4e5944;
   font: 25px/48px "Times New Roman", Times, serif;
   margin: 0;
@@ -337,20 +337,20 @@ p a:hover {
   margin-bottom: 24px;
 }
 
-.testimonial, .main, .sidebar > div h2, .sidebar ul li, .main > .section {
+.boximonial, .main, .sidebar > div h2, .sidebar ul li, .main > .section {
   background-image: url(../images/border.png);
   background-position: left top;
   background-repeat: repeat-y;
 }
 
-.testimonial {
+.boximonial {
   float: right;
   width: 260px;
   margin-left: 20px;
   padding: 24px 20px;
 }
 
-.testimonial > span {
+.boximonial > span {
   color: #626262;
   display: block;
   font: 14px/24px Arial, Helvetica, sans-serif;
