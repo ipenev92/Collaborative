@@ -1,13 +1,13 @@
 # Bootstrap
 
-Authors: Francisco José Gordo Salguero and Ivan Penev Kolev.
+Authors: Francisco José Gordo Salguero and Ivan Penev.
 
 Francisco José Gordo Salguero will do the following pages:
 - lawyers
 - post
 - practices
 
-Ivan Penev Kolev will do the following pages:
+Ivan Penev will do the following pages:
 - about
 - contact
 - index
