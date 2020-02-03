@@ -1,8 +1,8 @@
 # Bootstrap Collaborative Project
 
-## Authors: Francisco José Gordo Salguero and Ivan Penev.
-## Subject: Web Interfaces Design
-## Teacher: Toni Amengual
+- Authors: Francisco José Gordo Salguero and Ivan Penev.
+- Subject: Web Interfaces Design
+- Teacher: Toni Amengual
 
 ### Work Spread
 Francisco José Gordo Salguero will do the following pages:
