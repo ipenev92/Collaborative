@@ -17,7 +17,6 @@ body div.container div.row div.card-group div.card h5 {
 }
 
 /* Website template by freewebsitetemplates.com */
-/*
 body {
 	background-color: #e2e2e2;
 	min-width: 960px;
@@ -27,7 +26,6 @@ img {
 	display: block;
 	border: 0;
 }
-/** box-shadow **/
 .box {
   background-color: #e7e7e7;
   /* Needed for IE */
@@ -163,13 +161,13 @@ img {
 }
 
 /*------------ HEADER ------------*/
-#header {
+#header, nav {
   background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
   padding: 40px 0 46px;
 }
 
 /** logo **/
-.logo {
+.logo, .navbar-header {
   float: left;
   display: inline-block;
 }
