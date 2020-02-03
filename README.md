@@ -1,6 +1,13 @@
 # Bootstrap
 
-Authors: Francisco José Gordo Salguero e Ivan Penev.
+Authors: Francisco José Gordo Salguero and Ivan Penev.
 
-Francisco José Gordo Salguero ha hecho => lawyers.html, post.html, practices.html.  
-Ivan Penev ha hecho => about.html, contact.html e index.html.
+Francisco José Gordo Salguero will do the following pages:
+- lawyers
+- post
+- practices
+
+Ivan Penev will do the following pages:
+- about
+- contact
+- index
