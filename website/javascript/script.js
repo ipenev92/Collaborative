@@ -5,16 +5,22 @@ window.onload = function() { // Onload
 }
 
 $(document).ready(() => {
+	let header = "http://ivanpenev.hopto.org/bootstrap/lawfirm%20website/resources/header.html",
+    	footer = "http://ivanpenev.hopto.org/bootstrap/lawfirm%20website/resources/footer.html";
+
     // Load the HTML contents of the header into <header>
-    $('header').load('https://raw.githubusercontent.com/ipenev92/Bootstrap/master/lawfirm%20website/resources/header.html?token=AGNJPYHTYUSHDCIPUJHHJWS6HB2NC');
+    $('header').load(header);
     // Load the HTML contents of the footer into <footer>
-    $('footer').load('https://raw.githubusercontent.com/ipenev92/Bootstrap/master/lawfirm%20website/resources/footer.html?token=AGNJPYFYYKO5UJSEWNGF33C6HBZ24');
+    $('footer').load(footer);
 });
 
 /* Active Class */
 const active = (pages, url) => {
 	let arr = url.split("/"),
 		page = arr[arr.length-1].split(".")[0];
+
+	console.log(arr);
+	console.log(page);
 
 	document.getElementById(page).setAttribute('class', 'active');
 }
