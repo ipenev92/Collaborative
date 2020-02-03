@@ -5,8 +5,8 @@ window.onload = function() { // Onload
 }
 
 $(document).ready(() => {
-	let header = "http://ivanpenev.hopto.org/bootstrap/lawfirm%20website/resources/header.html",
-    	footer = "http://ivanpenev.hopto.org/bootstrap/lawfirm%20website/resources/footer.html";
+	let header = "http://ivanpenev.hopto.org/bootstrap/website/resources/header.html",
+    	footer = "http://ivanpenev.hopto.org/bootstrap/website/resources/footer.html";
 
     // Load the HTML contents of the header into <header>
     $('header').load(header);
