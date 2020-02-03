@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
   background: #e2e2e2;
 }
@@ -15,7 +17,7 @@ body div.container div.row div.card-group div.card h5 {
 }
 
 /* Website template by freewebsitetemplates.com */
-/*
+
 body {
 	background-color: #e2e2e2;
 	min-width: 960px;
@@ -161,13 +163,13 @@ img {
 }
 
 /*------------ HEADER ------------*/
-#header {
+#header, nav {
   background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
   padding: 40px 0 46px;
 }
 
 /** logo **/
-.logo {
+.logo, .navbar-header {
   float: left;
   display: inline-block;
 }
@@ -269,23 +271,23 @@ p a:hover {
   color: #333333;
 }
 
-/** Adbox **/
-#adbox {
+/** box **/
+#box {
   background: url(../images/bg-adbox.png) no-repeat center bottom;
   border-bottom: 1px solid #fff;
   padding-top: 15px;
 }
-#adbox > div {
+#box > div {
   background-color: #e9e9e9;
   width: 958px;
   border: 1px solid #fff;
   margin: 0 auto;
   position: relative;
 }
-#adbox > div img {
+#box > div img {
   float: right;
 }
-#adbox .detail {
+#box .detail {
   font-family: Times, "Times New Roman", serif;
   height: 185px;
   line-height: 48px;
@@ -295,7 +297,7 @@ p a:hover {
   left: 54px;
   top: 90px;
 }
-#adbox .detail h1 {
+#box .detail h1 {
   color: #4e5944;
   font-size: 30px;
   font-weight: normal;
@@ -303,7 +305,7 @@ p a:hover {
   margin: 0;
   text-transform: none;
 }
-#adbox .detail p {
+#box .detail p {
   color: #4e5944;
   font: 25px/48px "Times New Roman", Times, serif;
   margin: 0;
