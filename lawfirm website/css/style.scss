@@ -1,4 +1,52 @@
+/* 
+
+	Fet per Francisco José Gordo Salguero i Ivan Penev Kolev 
+
+	Última actualització: 30/01/2020;
+*/
+
+body {
+	background: #e2e2e2;
+	div {
+		&#clearfix {
+			div {
+				&.btn-group-vertical{
+					button {
+						background-color: #e2e2e2;
+						display: flex;
+						flex-direction: row;
+						justify-content: flex-start;
+						color: #755c02;
+					}						
+				}
+			}
+		}
+
+		&.container {
+			div {
+				&.row {
+					div {
+						&.card-group {
+							div {
+								&.card {
+									h5 {
+										display: flex;
+										flex-direction: row;
+										justify-content: center;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Part del profe
 /* Website template by freewebsitetemplates.com */
+/*
 body {
 	background-color: #e2e2e2;
 	min-width: 960px;
@@ -320,8 +368,8 @@ p a:hover {
 }
 .main {
 	float: left;
-	min-height: 960px;
-	width: 600px;
+	//min-height: 960px;
+	//width: 600px;
 	padding: 0 0 0 32px;
 }
 .main h1 {

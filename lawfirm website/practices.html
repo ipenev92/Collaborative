@@ -4,7 +4,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Practices - Law Firm</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -37,49 +42,48 @@
 			</ul>
 		</div>
 	</div>
-	<div id="contents">
-		<div class="clearfix">
-			<div class="sidebar">
-				<div>
-					<h2>Practices</h2>
-					<ul>
-						<li>
-							<a href="post.html">Prenuptial Agreement</a>
-						</li>
-						<li>
-							<a href="post.html">Marriage</a>
-						</li>
-						<li>
-							<a href="post.html">Divorce</a>
-						</li>
-					</ul>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4" id="clearfix">
+				<div class="btn-group-vertical sidebar">
+					<!--<button class="btn btn-secondary"> Practices </button>-->
+					<button type="button" class="btn btn-secondary" onclick="window.location.href='post.html'" disabled>Prenuptial Agreement</button>
+					<button type="button" class="btn btn-secondary" onclick="window.location.href='post.html'"  disabled>Marriage</button>
+					<button type="button" class="btn btn-secondary" onclick="window.location.href='post.html'"  disabled>Divorce</button>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+							<h2>Client Testimonials</h2>
+							<p>
+								&ldquo;The best family lawyers in the city so far. Me and my ex-wife didn’t have any<br> problems settling the terms and agreement. Everything went so smoothly. We’re both very happy.&rdquo; <span>- Jared Greene</span>
+							</p>
+						</div>
+					</div>
 				</div>
-				<div>
-					<h2>Client Testimonials</h2>
+			</div>
+				<div class="main col-sm-8 col-md-8 col-lg-8 col-xl-8">
+					<h1>Practices</h1>
 					<p>
-						&ldquo;The best family lawyers in the city so far. Me and my ex-wife didn’t have any<br> problems settling the terms and agreement. Everything went so smoothly. We’re both very happy.&rdquo; <span>- Jared Greene</span>
+						This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
 					</p>
 				</div>
-			</div>
-			<div class="main">
-				<h1>Practices</h1>
-				<p>
-					This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
-				</p>
-				<ul class="practices">
-					<li class="frame5">
-						<a href="post.html" class="box"><img src="images/prenuptial.jpg" height="198" width="265"><span>Prenuptial Agreement</span></a>
-					</li>
-					<li class="frame5">
-						<a href="post.html" class="box"><img src="images/bride.jpg" height="198" width="265"><span>Marriage</span></a>
-					</li>
-					<li class="frame5">
-						<a href="post.html" class="box"><img src="images/divorce.jpg" height="198" width="265"><span>Divorce</span></a>
-					</li>
-				</ul>
-			</div>
+					<div class="card-group col-sm-8 col-md-8 col-lg-8 col-xl-8">
+						<div class="card col-sm-4 col-md-4 col-lg-4 col-xl-4">
+							<img src="images/prenuptial.jpg" class="card-img-top" alt="prenuptial">
+							<h5 class="card-title">Prenuptial Agreement</h5>
+						</div>
+						<div class="card col-sm-4 col-md-4 col-lg-4 col-xl-4">
+							<img src="images/bride.jpg" class="card-img-top" alt="bride">
+							<h5 class="card-title">Marriage</h5>
+						</div>
+						<div class="card col-sm-4 col-md-4 col-lg-4 col-xl-4">
+							<img src="images/divorce.jpg" class="card-img-top" alt="divorce">
+							<h5 class="card-title">Divorce</h5>
+						</div>
+					</div>
 		</div>
 	</div>
+
 	<div id="footer">
 		<div class="clearfix">
 			<div class="section">
