@@ -12,6 +12,6 @@ $(document).ready(() => {
     $('footer').load(footer);
 });
 
-const active = (page) => {
+const active = page => {
 	document.getElementById(page).setAttribute('class', 'active');
 }
