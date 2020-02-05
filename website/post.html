@@ -59,5 +59,23 @@
 
 	<footer></footer>
 
+		<script type="text/javascript">
+			var titulo = getParameterByName('titulo');
+			var imagen = getParameterByName('imagen');
+			$('h1').html(titulo);
+			$("img").attr("src", imagen);
+			/**
+			 * @param String name
+			 * @return String
+			 */
+			function getParameterByName(name) {
+			    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+			    results = regex.exec(location.search);
+			    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+			}
+		
+		</script>
+
 </body>
 </html>
