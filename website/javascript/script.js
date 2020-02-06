@@ -4,7 +4,6 @@ $(document).ready(() => {
 
     // Load header, then apply active
 	$('header').load(header, function() {
-		document.getElementById("list_practices").style.display = "none";
 		$("#practices").hover(function() {
 			$("#list_practices").show();
 		}, function() {
