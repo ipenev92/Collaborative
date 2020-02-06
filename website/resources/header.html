@@ -10,19 +10,18 @@
 			<ul class="navigation">
 				<li id="index"><a href="index.html">Home</a></li>
 				<li id="about"><a href="about.html">About</a></li>
-				<li> Test
-					<div class="dropdown">
-						<a href="practices.html" id="practices" class="dropdown-toggle" data-toggle="dropdown">Practices</a>
-						<ul class="dropdown-menu" aria-labelledby="practices" role="menu">
-							<li><a class="dropdown-item" 
-							href="post.html?titulo=Prenuptial Agreement&imagen=images/prenuptial.jpg">Prenuptial</a></li>
-							<li><a class="dropdown-item"
-							href="post.html?titulo=Marriage&imagen=images/bride.jpg">Marriage</a></li>
-							<li><a class="dropdown-item"
-							href="post.html?titulo=Divorce&imagen=images/divorce.jpg">Divorce</a></li>
-						</ul>
-					</div>
-				</li>
+				<div class="dropdown">
+					<li class="dropdown-toggle" id="practices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Practices</a>
+						<div class="dropdown-menu" aria-labelledby="practices">
+							<a class="dropdown-item" 
+							href="post.html">Prenuptial</a>
+							<a class="dropdown-item"
+							href="post.html?titulo=Marriage&imagen=images/bride.jpg">Marriage</a>
+							<a class="dropdown-item"
+							href="post.html?titulo=Divorce&imagen=images/divorce.jpg">Divorce</a>
+						</div>
+					</li>
+				</div>
 				<li id="lawyers"><a href="lawyers.html">Our Lawyers</a></li>
 				<li id="news"><a href="#">News</a></li>
 				<li id="contact"><a href="contact.html">Contact</a></li>
@@ -32,3 +31,17 @@
 	<div class="col-sm-1">
 	</div>
 </nav>
+
+<div class="dropdown">
+  <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Link
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
