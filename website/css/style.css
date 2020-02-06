@@ -169,6 +169,10 @@ img {
 }
 
 /** logo **/
+.navbar {
+  padding: 10px;
+}
+
 .logo, .navbar-header {
   float: left;
   display: inline-block;
@@ -178,7 +182,7 @@ img {
 .navigation {
   float: right;
   list-style: none;
-  margin: 28px 0 0;
+  margin: 8px 0 0 0;
   padding: 0;
 }
 
