@@ -234,6 +234,11 @@ img {
   text-decoration: underline;
 }
 
+#list_practices {
+  display: flex;
+  flex-direction: column;
+}
+
 /*------------ CONTENTS ------------*/
 #contents {
   padding-bottom: 24px;
