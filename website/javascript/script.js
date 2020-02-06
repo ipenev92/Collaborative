@@ -9,13 +9,7 @@ $(document).ready(() => {
 		}, function() {
 			$("#list_practices").hide();
 		});
-
-		$("#ddmenu").hover(function() {
-			$("#list_practices").show();
-		}, function() {
-			$("#list_practices").hide();
-		});
-
+		
 	    let page = window.location.href.split("/").slice(-1)[0].split(".")[0]; //get file name
 	    active(page);
  	});
