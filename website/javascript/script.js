@@ -1,9 +1,11 @@
-$(document).ready(() => {
+$(document).ready(() => {	
 	let header = "http://ivanpenev.hopto.org/bootstrap/website/resources/header.html",
     	footer = "http://ivanpenev.hopto.org/bootstrap/website/resources/footer.html";
 
     // Load header, then apply active
 	$('header').load(header, function() {
+		document.getElementById("list_practices").style.display = "none";
+
 	    let page = window.location.href.split("/").slice(-1)[0].split(".")[0]; //get file name
 	    active(page);
  	});
