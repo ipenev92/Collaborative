@@ -24,7 +24,5 @@ const active = page => {
 			id = page;
 	}
 
-	console.log(id);
-
 	document.getElementById(id).setAttribute('class', 'active');
 }
