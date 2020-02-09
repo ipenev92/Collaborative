@@ -200,7 +200,7 @@ img {
   text-decoration: underline;
 }
 
-.navigation li.active > a, .navigation li > a:hover {
+.navigation li.active > a, .navigation li > a:hover, .navigation li.active .dropdown > a {
   color: #fff;
   text-decoration: underline;
 }
@@ -742,7 +742,6 @@ p a:hover {
 
 .dropbtn {
   background-color: #4e5944;
-  color: #b8c6ac;
   font: bold 13px/24px Times, "Times New Roman", serif;
   border: none;
 }

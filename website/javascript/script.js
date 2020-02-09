@@ -14,5 +14,17 @@ $(document).ready(() => {
 });
 
 const active = page => {
-	document.getElementById(page).setAttribute('class', 'active');
+	let id = "";
+
+	switch (page) {
+		case "prenuptial": case "bride": case "divorce":
+			id = "practices";
+			break;
+		default:
+			id = page;
+	}
+
+	console.log(id);
+
+	document.getElementById(id).setAttribute('class', 'active');
 }
