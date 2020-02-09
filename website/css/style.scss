@@ -71,15 +71,17 @@ img {
 .clearfix {
 	width: 960px;
 	margin: 0 auto;
+
+	&:after {
+		clear:both;
+		content:"";
+		display:block;
+		line-height:0;
+		height:1%;
+		visibility:hidden;
+	}
 }
-.clearfix:after {
-	clear:both;
-	content:"";
-	display:block;
-	line-height:0;
-	height:1%;
-	visibility:hidden;
-}
+
 /*------------ Sprites ------------*/
 .more, .subscribe, input[type='submit'] {
 	background: url(../images/interface.png) no-repeat;
@@ -181,19 +183,21 @@ img {
 	list-style: none;
 	margin: 28px 0 0;
 	padding: 0;
-}
-.navigation li {
-	float: left;
-	margin-left: 30px;
-	position: relative;
-}
-.navigation li > a {
-	color: #b8c6ac;
-	font: bold 13px/24px Times, "Times New Roman", serif;
-	text-decoration: none;
-	text-shadow: 1px 1px #000;
-	text-transform: uppercase;
-	text-decoration: underline;
+
+	li {
+		float: left;
+		margin-left: 30px;
+		position: relative;
+
+		& > a {
+			color: #b8c6ac;
+			font: bold 13px/24px Times, "Times New Roman", serif;
+			text-decoration: none;
+			text-shadow: 1px 1px #000;
+			text-transform: uppercase;
+			text-decoration: underline;
+		}
+	}
 }
 .navigation li.active > a, .navigation li > a:hover {
 	color: #fff;
@@ -258,13 +262,15 @@ p {
 	color: #626262;
 	font: 14px/24px Arial, Helvetica, sans-serif;
 	margin: 0 0 24px;
+
+	a {
+		color: #626262;
+		&:hover {
+			color: #333333;
+		}
+	}
 }
-p a {
-	color: #626262;
-}
-p a:hover {
-	color: #333333;
-}
+
 /** Adbox **/
 #adbox {
 	background: url(../images/bg-adbox.png) no-repeat center bottom;
