@@ -66,10 +66,6 @@ img {
   background: url(../images/interface.png) no-repeat;
 }
 
-.phone, .mail, .home, .fax, #footnote .connect a {
-  background: url(../images/icons.png) no-repeat;
-}
-
 .frame1, .frame2, .frame3, .frame4, .frame5, .news > li {
   background: url(../images/frames.png) no-repeat;
 }
@@ -722,31 +718,13 @@ p a:hover {
 #footnote .connect {
   float: left;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 10px; 
   padding: 6px 0;
 }
 
-#footnote .connect a {
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin-right: 6px;
-}
-
-#footnote .connect a.facebook {
-  background-position: 0 -112px;
-}
-
-#footnote .connect a.twitter {
-  background-position: 0 -140px;
-}
-
-#footnote .connect a.googleplus {
-  background-position: 0 -168px;
-}
-
-#footnote .connect a.pinterest {
-  background-position: 0 -196px;
+.fab {
+  font-size: 20px;
+  margin-left: 20px;
 }
 
 .dropbtn {
