@@ -4,6 +4,7 @@ $(document).ready(() => {
 
     // Load header, then apply active
 	$('header').load(header, function() {
+
 	    let page = window.location.href.split("/").slice(-1)[0].split(".")[0]; //get file name
 	    active(page);
  	});
@@ -13,5 +14,15 @@ $(document).ready(() => {
 });
 
 const active = page => {
-	document.getElementById(page).setAttribute('class', 'active');
+	let id = "";
+
+	switch (page) {
+		case "prenuptial": case "bride": case "divorce":
+			id = "practices";
+			break;
+		default:
+			id = page;
+	}
+
+	document.getElementById(id).setAttribute('class', 'active');
 }

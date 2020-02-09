@@ -66,10 +66,6 @@ img {
   background: url(../images/interface.png) no-repeat;
 }
 
-.phone, .mail, .home, .fax, #footnote .connect a {
-  background: url(../images/icons.png) no-repeat;
-}
-
 .frame1, .frame2, .frame3, .frame4, .frame5, .news > li {
   background: url(../images/frames.png) no-repeat;
 }
@@ -181,8 +177,17 @@ img {
 /** navigation **/
 .navigation {
   list-style: none;
-  margin: 8px 0px 0px 500px;
+  margin: 0px 0px 0px 400px;
   padding: 0;
+}
+
+#search {
+  right: 150px;
+}
+
+#srch {
+  color: #b8c6ac;
+  font: bold 13px/24px Times, "Times New Roman", serif;
 }
 
 .navigation li {
@@ -200,18 +205,9 @@ img {
   text-decoration: underline;
 }
 
-.navigation li.active > a, .navigation li > a:hover {
+.navigation li.active > a, .navigation li > a:hover, .navigation li.active .dropdown > a {
   color: #fff;
   text-decoration: underline;
-}
-
-.navigation li > div {
-  background-color: #888888;
-  display: none;
-  width: 110px;
-  position: absolute;
-  left: 0px;
-  top: 24px;
 }
 
 .navigation li:hover > div {
@@ -722,29 +718,49 @@ p a:hover {
 #footnote .connect {
   float: left;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 10px; 
   padding: 6px 0;
 }
 
-#footnote .connect a {
+.fab {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.dropbtn {
+  background-color: #4e5944;
+  font: bold 13px/24px Times, "Times New Roman", serif;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
   display: inline-block;
-  height: 18px;
-  width: 18px;
-  margin-right: 6px;
 }
 
-#footnote .connect a.facebook {
-  background-position: 0 -112px;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 160px;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-#footnote .connect a.twitter {
-  background-position: 0 -140px;
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #4e5944;
+  color: #b8c6ac;
+  font: bold 13px/24px Times, "Times New Roman", serif;
+  font-size: 16px;
 }
 
-#footnote .connect a.googleplus {
-  background-position: 0 -168px;
+.dropdown-content a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
-#footnote .connect a.pinterest {
-  background-position: 0 -196px;
-}
+.dropdown:hover .dropdown-content {display: block;}
