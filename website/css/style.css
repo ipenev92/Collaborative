@@ -768,6 +768,6 @@ p a:hover {
   display: block;
 }
 
-#latest {
+#latest, #contactus, #message {
   padding: 20px;
 }
