@@ -275,11 +275,7 @@ body {
 			margin: 0 auto 24px;
 			padding: 0 10px;
 		}
-		& ul {
-			list-style: none;
-			padding: 0;
-		}
-		& li {
+		& div {
 			float: left;
 			width: 220px;
 			margin: 0 10px;
@@ -294,6 +290,10 @@ body {
 				margin-left: 4px;
 			}
 		}
+	}
+
+	#featured b {
+		text-transform: uppercase;
 	}
 
 	.main {

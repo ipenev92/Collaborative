@@ -253,24 +253,23 @@ body .featured > h2 {
   margin: 0 auto 24px;
   padding: 0 10px;
 }
-body .featured ul {
-  list-style: none;
-  padding: 0;
-}
-body .featured li {
+body .featured div {
   float: left;
   width: 220px;
   margin: 0 10px;
 }
-body .featured li p {
+body .featured div p {
   padding-left: 4px;
 }
-body .featured li p b {
+body .featured div p b {
   display: block;
   text-transform: uppercase;
 }
-body .featured li .more {
+body .featured div .more {
   margin-left: 4px;
+}
+body #featured b {
+  text-transform: uppercase;
 }
 body .main {
   float: left;
