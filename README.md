@@ -15,7 +15,7 @@ Ivan Penev will do the following:
 - about
 - contact
 - index
-- main Javascript to implement header and footer load()
+- Javascript
 - SCSS
 
 ### About
@@ -23,3 +23,4 @@ The point of this exercise is to:
 - Learn how to add Bootstrap to a website that didn't use it previously.
 - Add SCSS to a website for a simpler way to add style to it.
 - Load pages (header/footer) with jQuery in order to not repeat code.
+- Utilize Bootstrap Toggleable Tabs, Accordeon Tabs and Tables.
