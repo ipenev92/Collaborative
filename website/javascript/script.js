@@ -4,9 +4,13 @@ $(document).ready(() => {
 
     // Load header, then apply active
 	$('header').load(header, function() {
-
 	    let page = window.location.href.split("/").slice(-1)[0].split(".")[0]; //get file name
 	    active(page);
+
+	    console.log(page);
+
+	    //if ()
+    	writePostBreadcrumb(page);
  	});
 
     // Load footer
@@ -25,4 +29,19 @@ const active = page => {
 	}
 
 	document.getElementById(id).setAttribute('class', 'active');
+}
+
+const writePostBreadcrumb = page => {
+	let result = "";
+	switch (page) {
+		case "prenuptial":
+			;
+			break;
+		case "bride":
+			;
+			break;
+		case "divorce":
+			;
+			break;
+	}
 }

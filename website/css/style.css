@@ -765,3 +765,9 @@ p a:hover {
 }
 
 .dropdown:hover .dropdown-content {display: block;}
+
+.breadcrumb {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
