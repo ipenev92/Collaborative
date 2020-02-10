@@ -24,3 +24,4 @@ The point of this exercise is to:
 - Add SCSS to a website for a simpler way to add style to it.
 - Load pages (header/footer) with jQuery in order to not repeat code.
 - Utilize Bootstrap Toggleable Tabs, Accordeon Tabs and Tables.
+- Learn how to work in collaboration with another student.
