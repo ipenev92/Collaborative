@@ -15,7 +15,7 @@ Ivan Penev will do the following:
 - about
 - contact
 - index
-- main Javascript to implement header and footer load()
+- Javascript
 - SCSS
 
 ### About
