@@ -1,0 +1,16 @@
+$base_font: bold 13px/24px Times, "Times New Roman", serif;
+
+%noPaddingMargin {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+%colorWhiteUnderline {
+	color: #fff;
+	text-decoration: underline;
+}
+
+@mixin textTransform($type) {
+	text-transform: $type;
+}

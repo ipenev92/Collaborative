@@ -1,3 +1,14 @@
+body .news, body .sidebar ul, body .main > .section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body nav .navigation li > div a:hover, body nav .navigation li.active > a, body nav .navigation li.active, body nav .navigation li > a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 body {
   background-color: #e2e2e2;
   background: #e2e2e2;
@@ -32,32 +43,16 @@ body nav .navigation li > a {
   text-transform: uppercase;
   text-decoration: underline;
 }
-body nav .navigation li > a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
 body nav .navigation li > a:hover > div {
   display: block;
 }
-body nav .navigation li.active {
-  color: #fff;
-  text-decoration: underline;
-}
-body nav .navigation li.active > a {
-  color: #fff;
-  text-decoration: underline;
-}
 body nav .navigation li > div a {
   color: #b8c6ac;
-  font: bold 13px/24px "Times New Roman", Times, serif;
+  font: bold 13px/24px Times, "Times New Roman", serif;
   display: block;
   text-align: center;
   text-decoration: none;
   text-shadow: none;
-  text-decoration: underline;
-}
-body nav .navigation li > div a:hover {
-  color: #fff;
   text-decoration: underline;
 }
 body nav .dropbtn {
@@ -295,11 +290,6 @@ body .main > .section {
   margin-left: -28px;
   padding-left: 30px;
 }
-body .main > .section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 body .main > .section ul li {
   display: inline-block;
   margin: 0 0 24px;
@@ -377,11 +367,6 @@ body .sidebar > div p span {
   display: block;
   text-align: right;
 }
-body .sidebar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 body .sidebar ul li {
   background-position: left bottom;
   background-repeat: repeat-x;
@@ -396,7 +381,7 @@ body .sidebar ul li > a span.box {
 }
 body .sidebar ul li a {
   color: #755c02;
-  font: 13px/24px Arial, Helvetica, sans-serif;
+  font: bold 13px/24px Times, "Times New Roman", serif;
   text-decoration: none;
 }
 body .sidebar ul li a:hover {
@@ -428,11 +413,6 @@ body .sidebar .contact li p em {
   display: block;
   font-size: 19px;
   font-style: normal;
-}
-body .news {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 body .news > li {
   background-position: 0 -238px;
