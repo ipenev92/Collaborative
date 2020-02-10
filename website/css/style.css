@@ -764,4 +764,10 @@ p a:hover {
   text-decoration: underline;
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#latest {
+  padding: 20px;
+}
