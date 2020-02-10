@@ -738,6 +738,7 @@ p a:hover {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-top: -2px;
 }
 
 .dropdown-content {
