@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-body {
-  background: #e2e2e2;
-}
 body div#clearfix div.btn-group-vertical button {
   background-color: #e2e2e2;
   display: flex;
@@ -20,7 +17,8 @@ body div.container div.row div.card-group div.card h5 {
 
 body {
 	background-color: #e2e2e2;
-	min-width: 960px;
+	background: #e2e2e2;
+	/*min-width: 960px;*/
 	margin: 0;
 }
 img {
@@ -48,7 +46,7 @@ img {
 }
 
 .clearfix {
-  width: 960px;
+  /*width: 960px;*/
   margin: 0 auto;
 }
 
@@ -772,4 +770,31 @@ p a:hover {
 
 #latest, #contactus, #message {
   padding: 20px;
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    width: 560px;
+  }
+
+  div.row {
+    width: 360px;
+  }
+
+  div.btn-group-vertical {
+    /*width: 530px;*/
+    padding-right: 0px;
+  }
+  div.clearfix {
+    width: 380px !important;
+  }
+
+  div.frame3 {
+    display: none;
+  }
+
+  div.main {
+    width: 330px;
+    padding: 0px;
+  }
 }
