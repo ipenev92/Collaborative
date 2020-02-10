@@ -7,10 +7,11 @@ $(document).ready(() => {
 	    let page = window.location.href.split("/").slice(-1)[0].split(".")[0]; //get file name
 	    active(page);
 
-	    console.log(page);
+	    let post_pages = ["prenuptial", "bride", "divorce"];
 
-	    //if ()
-    	writePostBreadcrumb(page);
+	    if (post_pages.includes(page)) {
+	    	writePostBreadcrumb(page);
+	    }
  	});
 
     // Load footer
@@ -32,16 +33,24 @@ const active = page => {
 }
 
 const writePostBreadcrumb = page => {
-	let result = "";
+	let result = "",
+		link = "";
+
 	switch (page) {
 		case "prenuptial":
-			;
+			result = "Prenuptial Agreement";
+			link = "post.html?titulo=Prenuptial Agreement&imagen=images/prenuptial.jpg";
 			break;
 		case "bride":
-			;
+			result = "Marriage";
+			link = "post.html?titulo=Marriage&imagen=images/bride.jpg";
 			break;
 		case "divorce":
-			;
+			result = "Divorce";
+			link = "post.html?titulo=Divorce&imagen=images/divorce.jpg";
 			break;
 	}
+
+	document.getElementById("post_breadcrumb").innerHTML += result;
+	document.getElementById("post_breadcrumb").setAttribute("href", link);
 }
